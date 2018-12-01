@@ -162,9 +162,9 @@ function (_React$Component) {
       hours = hours < 10 ? "0".concat(hours) : hours;
       minutes = minutes < 10 ? "0".concat(minutes) : minutes;
       seconds = seconds < 10 ? "0".concat(seconds) : seconds;
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Clock"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "clock"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Time:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, hours, ":", minutes, ":", seconds, " PDT")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Date: ", this.state.time.toDateString())));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Time:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, hours, ":", minutes, ":", seconds, " PDT")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Date:"), this.state.time.toDateString())));
     }
   }]);
 
