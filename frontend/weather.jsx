@@ -15,19 +15,19 @@ class Weather extends React.Component{
     }, console.log(this.lat, this.lon, 'sent'));
   }
 
-
-  var request = new XMLHttpRequest();
-    request.open('GET', '', true);
-
-    request.onload = function() {
-    if (request.status >= 200 && request.status < 400) {
-      // Success!
-      var resp = request.responseText;
-    } else {
-      // We reached our target server, but it returned an error
-
-    }
-  };
+  // 
+  // var request = new XMLHttpRequest();
+  //   request.open('GET', '', true);
+  //
+  //   request.onload = function() {
+  //   if (request.status >= 200 && request.status < 400) {
+  //     // Success!
+  //     var resp = request.responseText;
+  //   } else {
+  //     // We reached our target server, but it returned an error
+  //
+  //   }
+  // };
 
 
   render(){
