@@ -12,10 +12,10 @@ class Weather extends React.Component{
     navigator.geolocation.getCurrentPosition(function(position) {
       this.lat = position.coords.latitude
       this.lon = position.coords.longitude
-    }, console.log(this.lat, this.lon, 'sent'));
+    // }, console.log(this.lat, this.lon, 'sent'));
   }
 
-  // 
+  //
   // var request = new XMLHttpRequest();
   //   request.open('GET', '', true);
   //
