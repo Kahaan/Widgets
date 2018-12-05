@@ -1,7 +1,8 @@
 
 import React from 'react';
+import axios from 'axios';
 
-api_call = 'https://api.openweathermap.org/data/2.5/weather?lat={this.lat}&lon={this.lon}&appid={API_KEY}'
+// api_call = 'https://api.openweathermap.org/data/2.5/weather?lat={this.lat}&lon={this.lon}&appid={API_KEY}'
 
 class Weather extends React.Component{
   constructor(props){
@@ -14,7 +15,7 @@ class Weather extends React.Component{
       this.lon = position.coords.longitude
     }, console.log(this.lat, this.lon, 'sent'));
   }
-
+  //
   //
   // var request = new XMLHttpRequest();
   //   request.open('GET', '', true);
